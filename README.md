@@ -1,3 +1,8 @@
+나중에 A_BLOG2 로 이름변경  
+포폴이랑 연결 시킬 것임 MySelp였나랑  
+리액트 수업 때 만든 것. 
+이름 이력서 1으로 바꿀 예정  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
