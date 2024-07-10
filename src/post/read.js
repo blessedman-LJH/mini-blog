@@ -16,6 +16,8 @@ export default function Read()
                 console.log(text);
             },[fileName]);
     })
+
+    
     return (
         <div className='py-4 px-4 text-center'>
 
