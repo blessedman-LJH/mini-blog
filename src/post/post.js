@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Post(){
 
     const markdownFiles = [
-        {name:"글1", content:"내여ㅛㅇ"}, 
-        {name:"글2", content:"내여ㅛㅇ"} 
+        {name:"글1", content:"내용 요약"}, 
+        {name:"글테스트", content:"네용 요약"} 
     ]
 
 
