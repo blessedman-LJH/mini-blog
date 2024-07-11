@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {useParams} from "react-router-dom";
-
+import remarkGfm from 'remark-gfm';
+import ReactMarkdown from "react-markdown";
 
 export default function Read()
 {
@@ -20,7 +21,7 @@ export default function Read()
     
     return (
         <div className='py-4 px-4 text-center'>
-
+            <ReactMarkdown remarkPlugins = {remarkGfm}>{markdown}</ReactMarkdown>
         </div>
     );
 }
